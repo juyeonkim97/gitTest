@@ -1,8 +1,11 @@
 깃 사용법
+- 깃허브 레포지토리 생성
 - 로컬폴더와 깃허브 연결하기
   - 연결할 로컬 폴더 만들기
   - 폴더 오른쪽 버튼 눌러서 git bash here
-  - git init -> git remote add origin github주소(이 명령어들은 한 번만)
+  - git init
+  - git branch -M main
+  - git remote add origin github 레포주소(이 명령어들은 한 번만)
 
 -Push 전엔 Pull이 있다 : 다른 사람과 작업할 때 변경사항을 pull 하지 않으면 내가 push 한 게 덮어쓰기 되기 때문에
   - Pull : 가져오기
@@ -12,7 +15,7 @@
     - git status : 현재 나의 로컬 폴더와 깃과의 싱크 체크
     - git add . : 로컬 폴더와 깃 레포 사이의 어떤 변경된 파일이 있을 때 그 파일을 모두 트래킹
     - git commit -m "message" : 변경사항을 깃에 업로드 했을 때 누군가에게 알려주는 커멘드를 달 수 있는 명령어
-    - git push origin +master : 실제로 깃에 푸쉬요청하는 명령어
+    - git push -u origin main : 실제로 깃에 푸쉬요청하는 명령어
 
 
 출처 : https://youtu.be/tC8Xj_Bf8Fw
