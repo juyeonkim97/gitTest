@@ -1,5 +1,5 @@
 # gitTest
-learning about git, github
+git/ github test
 
 [깃 사용법](https://github.com/juyeonkim97/memoring_gitTest/blob/master/%EA%B9%83%20%EB%B0%B0%EC%9A%B0%EA%B8%B0.txt)
 
